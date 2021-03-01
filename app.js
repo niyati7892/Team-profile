@@ -204,7 +204,7 @@ async function run() {
 
     console.log(html);
     const fs = require("fs");
-    fs.writeFile('output', html, function (err) {
+    fs.writeFile('newfile.html', html, function (err) {
         if (err) throw err;
         console.log('File is created successfully.');
     });
